@@ -12,11 +12,12 @@ chosen direction. The agent is rewarded for finding a walkable path to a goal ti
 
 Environemnt detail link : https://gym.openai.com/envs/FrozenLake-v0/
 
+```
 SFFF
 FHFH
 FFFH
 HFFG
-
+```
 Above grid is the environment, S is the starting point and safe. F is a frozen surface and safe.
 H is hole and not safe and you get 0 reward. G is goal where the frisbee is and reward is 1. Its game over
 when agent either falls in the hole or reaches the goal stage. Agent can move in left, down, right, up directions.
@@ -84,7 +85,12 @@ Training
 ```
 
 Testing
+In the cosole output, current state is highlighted in red. Since its not visible
+here in the readme file, here is the steps it takes for each episodes to reach a terminal state-
 
+Episode 1 : S -> (down)F -> (down)F ->(right)F -> (down)F ->(right)F -> (right)G
+Episode 2 : S -> (down)F -> (down)F ->(right)F -> (down)F ->(right)F -> (right)G
+Episode 3 : S -> (down)F -> (down)F ->(right)F -> (down)F ->(right)F -> (right)G
 
 ```
 *** Episode  1 ***
