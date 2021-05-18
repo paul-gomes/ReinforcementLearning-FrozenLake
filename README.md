@@ -84,7 +84,7 @@ Training
 
 ```
 
-Testing
+Testing \
 In the cosole output, current state is highlighted in red. Since its not visible
 here in the readme file, here is the steps it takes for each episodes to reach a terminal state-
 
