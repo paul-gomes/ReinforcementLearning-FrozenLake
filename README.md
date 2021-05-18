@@ -88,9 +88,9 @@ Testing
 In the cosole output, current state is highlighted in red. Since its not visible
 here in the readme file, here is the steps it takes for each episodes to reach a terminal state-
 
-Episode 1 : S -> (down)F -> (down)F ->(right)F -> (down)F ->(right)F -> (right)G
-Episode 2 : S -> (down)F -> (down)F ->(right)F -> (down)F ->(right)F -> (right)G
-Episode 3 : S -> (down)F -> (down)F ->(right)F -> (down)F ->(right)F -> (right)G
+1. Episode 1 : S -> (down)F -> (down)F ->(right)F -> (down)F ->(right)F -> (right)G
+1. Episode 2 : S -> (down)F -> (down)F ->(right)F -> (down)F ->(right)F -> (right)G
+1. Episode 3 : S -> (down)F -> (down)F ->(right)F -> (down)F ->(right)F -> (right)G
 
 ```
 *** Episode  1 ***
